@@ -1,0 +1,28 @@
+var classace_1_1physics__component =
+[
+    [ "apply_explosion_force", "classace_1_1physics__component.html#a3a11daab91ad45b36285f477df76a6e1", null ],
+    [ "apply_force", "classace_1_1physics__component.html#a8d4d58334b1c2cf9b13b47ba773e0259", null ],
+    [ "apply_torque", "classace_1_1physics__component.html#a0e310aa58dd7cd3fdbab08737a90bf32", null ],
+    [ "are_all_properties_dirty", "classace_1_1physics__component.html#a82740a4b90715102865bad2ac42ca9c0", null ],
+    [ "are_any_properties_dirty", "classace_1_1physics__component.html#a3ab9e38614f89328056494ca47c17d00", null ],
+    [ "clear_kinematic_velocities", "classace_1_1physics__component.html#a1bdf2a53e50d7f1e9a48acdfb2387875", null ],
+    [ "get_mass", "classace_1_1physics__component.html#a51ea1e11206c788cfd8e86158a912ca0", null ],
+    [ "get_material", "classace_1_1physics__component.html#a4b39b893ec6d4196de1518ca38281ae7", null ],
+    [ "get_shape_by_index", "classace_1_1physics__component.html#af056e17a95217f0fd5d942396f08f0a5", null ],
+    [ "get_shapes", "classace_1_1physics__component.html#ae563e33a7f6375cace2e706ad25da331", null ],
+    [ "get_shapes_count", "classace_1_1physics__component.html#aa315f412296497eb06206cd6704206b6", null ],
+    [ "is_dirty", "classace_1_1physics__component.html#ab80fce12c46c665433f3adcb2471f071", null ],
+    [ "is_kinematic", "classace_1_1physics__component.html#acef82cffb70c2f6bfb7e03ecb429d90e", null ],
+    [ "is_property_dirty", "classace_1_1physics__component.html#aca447dfd1e80152ff7dab155f0689daf", null ],
+    [ "is_sensor", "classace_1_1physics__component.html#aca373cacbc1b12c4c5322e287fd1403e", null ],
+    [ "is_using_gravity", "classace_1_1physics__component.html#a92486d70694bc6575553ad1ebc03c4a8", null ],
+    [ "set_dirty", "classace_1_1physics__component.html#a3a0bfecd0d5e6d9c77803f72b58920d1", null ],
+    [ "set_is_kinematic", "classace_1_1physics__component.html#a3742cef5c0cc4c56d130afd6b9c813c1", null ],
+    [ "set_is_sensor", "classace_1_1physics__component.html#ad4dd65e1cc13e8cf0267b54e5e78f136", null ],
+    [ "set_is_using_gravity", "classace_1_1physics__component.html#aabea62d4d4cced27a3efe5173a4ee62e", null ],
+    [ "set_mass", "classace_1_1physics__component.html#a1afad5cce77f61169b4c034a8df87e0b", null ],
+    [ "set_material", "classace_1_1physics__component.html#a2e3bde15779477dcbe4212651acdb46b", null ],
+    [ "set_property_dirty", "classace_1_1physics__component.html#a263598d0639a434df2b3130c2a165436", null ],
+    [ "set_shape_by_index", "classace_1_1physics__component.html#a2aab20a944610339d2333c6cb19d9017", null ],
+    [ "set_shapes", "classace_1_1physics__component.html#a4326c32ba9646263081b921ae965d3e7", null ]
+];

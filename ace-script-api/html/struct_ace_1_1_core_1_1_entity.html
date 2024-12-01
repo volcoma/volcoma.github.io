@@ -105,6 +105,9 @@ $(function(){initNavTree('struct_ace_1_1_core_1_1_entity.html',''); initResizabl
   <div class="headertitle"><div class="title">Ace.Core.Entity Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents an entity within a scene. Provides methods to manage components and query entity properties.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Ace.Core.Entity:</div>
 <div class="dyncontent">
@@ -117,50 +120,66 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d395eebfeddecac28bcb33b06947962" id="r_a3d395eebfeddecac28bcb33b06947962"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d395eebfeddecac28bcb33b06947962">Equals</a> (object obj)</td></tr>
 <tr class="separator:a3d395eebfeddecac28bcb33b06947962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1899172055e0dc316fb4f58b87046a1d" id="r_a1899172055e0dc316fb4f58b87046a1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1899172055e0dc316fb4f58b87046a1d">Equals</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> other)</td></tr>
+<tr class="memdesc:a1899172055e0dc316fb4f58b87046a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the specified entity is equal to the current entity.  <br /></td></tr>
 <tr class="separator:a1899172055e0dc316fb4f58b87046a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4c0300320b8bb476a0570bb4b17ae5c" id="r_aa4c0300320b8bb476a0570bb4b17ae5c"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4c0300320b8bb476a0570bb4b17ae5c">GetHashCode</a> ()</td></tr>
 <tr class="separator:aa4c0300320b8bb476a0570bb4b17ae5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76744541dd4c3d35a1b6b9cf72273b2f" id="r_a76744541dd4c3d35a1b6b9cf72273b2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76744541dd4c3d35a1b6b9cf72273b2f">IsValid</a> ()</td></tr>
+<tr class="memdesc:a76744541dd4c3d35a1b6b9cf72273b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the entity is valid within the scene.  <br /></td></tr>
 <tr class="separator:a76744541dd4c3d35a1b6b9cf72273b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a278af3b295dd544d9ed18b5136d9ead6" id="r_a278af3b295dd544d9ed18b5136d9ead6"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a278af3b295dd544d9ed18b5136d9ead6">AddComponent&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a278af3b295dd544d9ed18b5136d9ead6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new component of the specified type to the entity.  <br /></td></tr>
 <tr class="separator:a278af3b295dd544d9ed18b5136d9ead6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af40baf64e894d7d23fbea987c87e5d94" id="r_af40baf64e894d7d23fbea987c87e5d94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af40baf64e894d7d23fbea987c87e5d94">HasComponent&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:af40baf64e894d7d23fbea987c87e5d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the entity has a component of the specified type.  <br /></td></tr>
 <tr class="separator:af40baf64e894d7d23fbea987c87e5d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9988a92466c6dcb981d9de6cad73bfd3" id="r_a9988a92466c6dcb981d9de6cad73bfd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9988a92466c6dcb981d9de6cad73bfd3">HasComponent</a> (Type type)</td></tr>
+<tr class="memdesc:a9988a92466c6dcb981d9de6cad73bfd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the entity has a component of the specified type.  <br /></td></tr>
 <tr class="separator:a9988a92466c6dcb981d9de6cad73bfd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b65205601ffb12aa8ea34ee065beb95" id="r_a7b65205601ffb12aa8ea34ee065beb95"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b65205601ffb12aa8ea34ee065beb95">GetComponent&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a7b65205601ffb12aa8ea34ee065beb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the component of the specified type from the entity.  <br /></td></tr>
 <tr class="separator:a7b65205601ffb12aa8ea34ee065beb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3777aa4d4e651c68e32891d1d7e3652" id="r_af3777aa4d4e651c68e32891d1d7e3652"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ace_1_1_core_1_1_component.html">Component</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3777aa4d4e651c68e32891d1d7e3652">GetComponents</a> (Type type)</td></tr>
+<tr class="memdesc:af3777aa4d4e651c68e32891d1d7e3652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all components of the specified type from the entity.  <br /></td></tr>
 <tr class="separator:af3777aa4d4e651c68e32891d1d7e3652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28b566b747b22465d7ce5fa113c06f18" id="r_a28b566b747b22465d7ce5fa113c06f18"><td class="memItemLeft" align="right" valign="top">T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b566b747b22465d7ce5fa113c06f18">GetComponents&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a28b566b747b22465d7ce5fa113c06f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all components of the specified type from the entity.  <br /></td></tr>
 <tr class="separator:a28b566b747b22465d7ce5fa113c06f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095ab1e10fcc395e9a6e18d2cbad23bd" id="r_a095ab1e10fcc395e9a6e18d2cbad23bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a095ab1e10fcc395e9a6e18d2cbad23bd">RemoveComponent</a> (<a class="el" href="class_ace_1_1_core_1_1_component.html">Component</a> component)</td></tr>
+<tr class="memdesc:a095ab1e10fcc395e9a6e18d2cbad23bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a specified component instance from the entity.  <br /></td></tr>
 <tr class="separator:a095ab1e10fcc395e9a6e18d2cbad23bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a831729db9d777a936cfdb37328054060" id="r_a831729db9d777a936cfdb37328054060"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831729db9d777a936cfdb37328054060">RemoveComponent&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a831729db9d777a936cfdb37328054060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a component of the specified type from the entity.  <br /></td></tr>
 <tr class="separator:a831729db9d777a936cfdb37328054060"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e82b9bc2950828586feb7c0bd47df98" id="r_a2e82b9bc2950828586feb7c0bd47df98"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e82b9bc2950828586feb7c0bd47df98">operator==</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> lhs, <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> rhs)</td></tr>
+<tr class="memdesc:a2e82b9bc2950828586feb7c0bd47df98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two entities for equality.  <br /></td></tr>
 <tr class="separator:a2e82b9bc2950828586feb7c0bd47df98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ddcc421a646d8b5301604f917f48ac4" id="r_a5ddcc421a646d8b5301604f917f48ac4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ddcc421a646d8b5301604f917f48ac4">operator!=</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> lhs, <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> rhs)</td></tr>
+<tr class="memdesc:a5ddcc421a646d8b5301604f917f48ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two entities for inequality.  <br /></td></tr>
 <tr class="separator:a5ddcc421a646d8b5301604f917f48ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae3a21c5b31e0385b000e266101cfdf3c" id="r_ae3a21c5b31e0385b000e266101cfdf3c"><td class="memItemLeft" align="right" valign="top">readonly uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3a21c5b31e0385b000e266101cfdf3c">Id</a></td></tr>
+<tr class="memdesc:ae3a21c5b31e0385b000e266101cfdf3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the unique identifier of the entity.  <br /></td></tr>
 <tr class="separator:ae3a21c5b31e0385b000e266101cfdf3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a8e9b1a85997d72900924179fd420d466" id="r_a8e9b1a85997d72900924179fd420d466"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e9b1a85997d72900924179fd420d466">tag</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8e9b1a85997d72900924179fd420d466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the tag of the entity.  <br /></td></tr>
 <tr class="separator:a8e9b1a85997d72900924179fd420d466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a967b84f0dbe2c2de6dee37dff319be" id="r_a6a967b84f0dbe2c2de6dee37dff319be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ace_1_1_core_1_1_transform_component.html">TransformComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a967b84f0dbe2c2de6dee37dff319be">transform</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6a967b84f0dbe2c2de6dee37dff319be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the transform component of the entity.  <br /></td></tr>
 <tr class="separator:a6a967b84f0dbe2c2de6dee37dff319be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00011">11</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<div class="textblock"><p>Represents an entity within a scene. Provides methods to manage components and query entity properties. </p>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00014">14</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a278af3b295dd544d9ed18b5136d9ead6" name="a278af3b295dd544d9ed18b5136d9ead6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a278af3b295dd544d9ed18b5136d9ead6">&#9670;&#160;</a></span>AddComponent&lt; T &gt;()</h2>
@@ -176,6 +195,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Adds a new component of the specified type to the entity. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to add.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The newly added component.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -186,7 +214,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00062">62</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00095">95</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -205,7 +233,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00043">43</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Determines whether the specified entity is equal to the current entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The entity to compare with the current entity.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the specified entity is equal to the current entity; otherwise, <code>false</code>.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00054">54</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -224,7 +261,9 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00035">35</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p></p>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00041">41</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -242,6 +281,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the component of the specified type from the entity. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to retrieve.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The component of the specified type.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -252,7 +300,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00077">77</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00125">125</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -271,7 +319,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00092">92</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Gets all components of the specified type from the entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The type of component to retrieve.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An array of components of the specified type.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00135">135</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -289,6 +346,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets all components of the specified type from the entity. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to retrieve.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An array of components of the specified type.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -298,7 +364,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00097">97</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00145">145</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -317,6 +383,8 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+
 </div>
 </div>
 <a id="a9988a92466c6dcb981d9de6cad73bfd3" name="a9988a92466c6dcb981d9de6cad73bfd3"></a>
@@ -334,7 +402,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00072">72</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Determines whether the entity has a component of the specified type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The type of component to check for.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the entity has the specified component; otherwise, <code>false</code>.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00115">115</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -352,6 +429,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines whether the entity has a component of the specified type. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to check for.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the entity has the specified component; otherwise, <code>false</code>.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -361,7 +447,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00067">67</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00105">105</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -380,7 +466,10 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00057">57</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Determines whether the entity is valid within the scene. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the entity is valid; otherwise, <code>false</code>.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00085">85</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -411,6 +500,16 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Compares two entities for inequality. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>The first entity.</td></tr>
+    <tr><td class="paramname">rhs</td><td>The second entity.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if both entities are not equal; otherwise, <code>false</code>.</dd></dl>
+
 </div>
 </div>
 <a id="a2e82b9bc2950828586feb7c0bd47df98" name="a2e82b9bc2950828586feb7c0bd47df98"></a>
@@ -440,6 +539,16 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Compares two entities for equality. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>The first entity.</td></tr>
+    <tr><td class="paramname">rhs</td><td>The second entity.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if both entities are equal; otherwise, <code>false</code>.</dd></dl>
+
 </div>
 </div>
 <a id="a095ab1e10fcc395e9a6e18d2cbad23bd" name="a095ab1e10fcc395e9a6e18d2cbad23bd"></a>
@@ -457,7 +566,16 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00102">102</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Removes a specified component instance from the entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">component</td><td>The component instance to remove.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the component was successfully removed; otherwise, <code>false</code>.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00155">155</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -475,6 +593,15 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Removes a component of the specified type from the entity. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to remove.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the component was successfully removed; otherwise, <code>false</code>.</dd></dl>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -484,7 +611,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00107">107</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00165">165</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -501,7 +628,9 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00013">13</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Gets the unique identifier of the entity. </p>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00019">19</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -526,7 +655,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00015">15</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Gets or sets the tag of the entity. </p>
+<p>The tag associated with the entity.</p>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00025">25</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>
@@ -550,7 +682,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00027">27</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
+<p>Gets the transform component of the entity. </p>
+<p>The transform component of the entity.</p>
+
+<p class="definition">Definition at line <a class="el" href="_entity_8cs_source.html#l00035">35</a> of file <a class="el" href="_entity_8cs_source.html">Entity.cs</a>.</p>
 
 </div>
 </div>

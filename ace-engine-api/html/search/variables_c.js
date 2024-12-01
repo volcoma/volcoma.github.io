@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['name_0',['name',['../structace_1_1animation__clip.html#a3d2407ba1a9e6a6f27c784e5d0fca070',1,'ace::animation_clip::name'],['../structace_1_1importer_1_1imported__material.html#a45ed0fcd649a6cb2c1db8610a102c885',1,'ace::importer::imported_material::name'],['../structace_1_1importer_1_1imported__texture.html#aecede8b4e3c833bb1a7fa1b637773f7a',1,'ace::importer::imported_texture::name'],['../structace_1_1named__anim.html#aeb7a70d00fae16c4d6e5cdc9573a9094',1,'ace::named_anim::name'],['../structace_1_1mesh_1_1armature__node.html#a2370518ab0ab440d8996b988b546a95c',1,'ace::mesh::armature_node::name']]],
+  ['near_5fclip_5f_1',['near_clip_',['../classace_1_1camera.html#a7e03f5ca0ab8b9eab6b196ab45672bc1',1,'ace::camera']]],
+  ['near_5fplane_2',['near_plane',['../structace_1_1light_1_1shadowmap__params.html#a1c68e32b6da14426d40eecc09ec51382',1,'ace::light::shadowmap_params']]],
+  ['needs_5fregeneration_3',['needs_regeneration',['../structace_1_1thumbnail__manager_1_1generated__thumbnail.html#a9e5407a938265b5c7599654149b4e69f',1,'ace::thumbnail_manager::generated_thumbnail']]],
+  ['node_5fid_4',['node_id',['../structace_1_1mesh_1_1submesh.html#a537df1d112ab390240f289b9fa37e8c8',1,'ace::mesh::submesh']]],
+  ['node_5findex_5',['node_index',['../structace_1_1animation__channel.html#a0bdf3d5928f7143facd6a092b0f46207',1,'ace::animation_channel']]],
+  ['node_5fname_6',['node_name',['../structace_1_1animation__channel.html#a6a247f868110712a22d83ec098c494a7',1,'ace::animation_channel']]],
+  ['nodes_7',['nodes',['../structace_1_1animation__pose.html#acb966f0aef6284d7d8c6a02668c7f8b8',1,'ace::animation_pose']]],
+  ['nomonitordetected_8',['NoMonitorDetected',['../struct_im_gui___impl_o_s_p_p___data.html#a4bb32d5a8713baaa6e3b5f63baab089c',1,'ImGui_ImplOSPP_Data']]],
+  ['non_5fskinned_5fsubmesh_5fcount_5f_9',['non_skinned_submesh_count_',['../classace_1_1mesh.html#a69b18695d5423d33a7fc812a76b802c6',1,'ace::mesh']]],
+  ['non_5fskinned_5fsubmesh_5findices_5f_10',['non_skinned_submesh_indices_',['../classace_1_1mesh.html#a7573d860af0eeb44b4b2df44a1f21123',1,'ace::mesh']]],
+  ['normal_11',['normal',['../classgenerator_1_1mesh__vertex__t.html#ae80e0b447b865251a984b2f2bca87fdf',1,'generator::mesh_vertex_t::normal'],['../classgenerator_1_1path__vertex__t.html#a49243e20130f2f5159d60e5fc79b824a',1,'generator::path_vertex_t::normal'],['../structace_1_1assao__pass_1_1run__params.html#a44241104ae8987844e2974573573fdaf',1,'ace::assao_pass::run_params::normal']]],
+  ['normal_5fbias_12',['normal_bias',['../structace_1_1light_1_1shadowmap__params.html#a13ce097f4c03c9772c0acf49709e8917',1,'ace::light::shadowmap_params']]],
+  ['normal_5fon_5fa_13',['normal_on_a',['../structace_1_1manifold__point.html#aa68c81bf5db947cd4caca6fcccc3763d',1,'ace::manifold_point']]],
+  ['normal_5fon_5fb_14',['normal_on_b',['../structace_1_1manifold__point.html#a3f3262b95496d8791f5448472d59dc33',1,'ace::manifold_point']]],
+  ['north_5fdir_5f_15',['north_dir_',['../classace_1_1detail_1_1sun__controller.html#a66a118e162ba83acb1de31fb401b2bb4',1,'ace::detail::sun_controller']]],
+  ['num_16',['num',['../struct_debug_draw_encoder_impl_1_1_matrix_stack.html#a5d22d050f4df6fa06188f050c117219d',1,'DebugDrawEncoderImpl::MatrixStack']]],
+  ['num_5fsplits_17',['num_splits',['../structace_1_1light_1_1directional_1_1shadowmap__params.html#ae39d641062602bc756cd5bb27300e6dd',1,'ace::light::directional::shadowmap_params']]]
+];

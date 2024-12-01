@@ -1,0 +1,28 @@
+var serialization_8h =
+[
+    [ "LOAD", "serialization_8h.html#a1491acebaab5a697b41ac02a2ef422a9", null ],
+    [ "LOAD_EXTERN", "serialization_8h.html#a6ed92f2f372980247dba4e1143070e18", null ],
+    [ "LOAD_FUNCTION_NAME", "serialization_8h.html#a8e4d5d1465c36997b3298db91d7eff8b", null ],
+    [ "LOAD_INLINE", "serialization_8h.html#ad6245c6e3ba9e83d951f61b56800062d", null ],
+    [ "LOAD_INSTANTIATE", "serialization_8h.html#a6f88eadf7b896da4c9a8be3b99ffdc8f", null ],
+    [ "LOAD_MINIMAL_FUNCTION_NAME", "serialization_8h.html#ae2b198a79df66b4035cc23884639ac79", null ],
+    [ "SAVE", "serialization_8h.html#ad2678454a65f75678b149ac7493402f1", null ],
+    [ "SAVE_EXTERN", "serialization_8h.html#a9e780a4c62a9586c6e9db9f5143c8b02", null ],
+    [ "SAVE_FUNCTION_NAME", "serialization_8h.html#afec06e1fd08326091066933c1928f34b", null ],
+    [ "SAVE_INLINE", "serialization_8h.html#ad80093dd4154094600f3b7376831b9e6", null ],
+    [ "SAVE_INSTANTIATE", "serialization_8h.html#a0e13c40bdc35f146f40d61f477925fa5", null ],
+    [ "SAVE_MINIMAL_FUNCTION_NAME", "serialization_8h.html#a9ced817ffbdeee0a79e422cd39593e86", null ],
+    [ "SERIALIZABLE", "serialization_8h.html#a444ad864f4c126145df928cfc0bde5b0", null ],
+    [ "SERIALIZE", "serialization_8h.html#aabb5a7b105ae5b67bfa78f3564868422", null ],
+    [ "SERIALIZE_EXTERN", "serialization_8h.html#a63cb74d42fa6530b9bb0e5e77d14e2fc", null ],
+    [ "SERIALIZE_FUNCTION_NAME", "serialization_8h.html#aa389b7a921800b5ff483ba4b482a2123", null ],
+    [ "SERIALIZE_INLINE", "serialization_8h.html#a98ea3788e48898268dcd33baff54fcfe", null ],
+    [ "SERIALIZE_INSTANTIATE", "serialization_8h.html#ad6c3649cd065e4ffc4408e3be4a2c601", null ],
+    [ "SERIALIZE_REGISTER_TYPE_WITH_NAME", "serialization_8h.html#a5d8a7b068924cd2f6350bf28ae12b31f", null ],
+    [ "log_callback_t", "serialization_8h.html#a56f69fe3dd2236eb43ac77d7073c50aa", null ],
+    [ "log_warning", "serialization_8h.html#a03b932b1b6cc741591fa769cebd5b54f", null ],
+    [ "set_warning_logger", "serialization_8h.html#a7cac4f7078c8b6071ed52ccd7b495ed2", null ],
+    [ "try_load", "serialization_8h.html#afd00036e970f0719e1d4908daa2852b1", null ],
+    [ "try_save", "serialization_8h.html#a3e60107928d1cd36240420d80e77fbd6", null ],
+    [ "try_serialize", "serialization_8h.html#a2d5f79664d516bacc6cba79293e6140d", null ]
+];

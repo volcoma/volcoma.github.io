@@ -5,7 +5,7 @@ var searchData=
   ['removecomponent_2',['RemoveComponent',['../struct_ace_1_1_core_1_1_entity.html#a095ab1e10fcc395e9a6e18d2cbad23bd',1,'Ace::Core::Entity']]],
   ['removecomponent_3c_20t_20_3e_3',['RemoveComponent&lt; T &gt;',['../struct_ace_1_1_core_1_1_entity.html#a831729db9d777a936cfdb37328054060',1,'Ace::Core::Entity']]],
   ['repeat_4',['Repeat',['../struct_mathf.html#af75422c290f63eacdbd7b28a008d1d21',1,'Mathf']]],
-  ['resume_5',['Resume',['../class_ace_1_1_core_1_1_animation_component.html#ad7eaf077df4cdf2888c8e63b13e39330',1,'Ace::Core::AnimationComponent']]],
+  ['resume_5',['Resume',['../class_ace_1_1_core_1_1_animation_component.html#ad7eaf077df4cdf2888c8e63b13e39330',1,'Ace.Core.AnimationComponent.Resume()'],['../class_ace_1_1_core_1_1_audio_source_component.html#a9bb2837b79288f6a1c944e3311a5303f',1,'Ace.Core.AudioSourceComponent.Resume()']]],
   ['rotatearound_6',['RotateAround',['../class_ace_1_1_core_1_1_transform_component.html#ab106aad977c621e8edd7d854cbdde0ef',1,'Ace.Core.TransformComponent.RotateAround(Vector3 point, Vector3 axis, float angle)'],['../class_ace_1_1_core_1_1_transform_component.html#ac187098a7ec77b708ef585ea2f14a7d0',1,'Ace.Core.TransformComponent.RotateAround(Entity target, Vector3 axis, float angle)'],['../class_ace_1_1_core_1_1_transform_component.html#a1e8e084ca8a02e61327015ef5d89f85a',1,'Ace.Core.TransformComponent.RotateAround(TransformComponent target, Vector3 axis, float angle)']]],
   ['rotateaxis_7',['RotateAxis',['../class_ace_1_1_core_1_1_transform_component.html#a8f8d786053a2c69ae9dd5f38a83d8895',1,'Ace::Core::TransformComponent']]],
   ['rotateby_8',['RotateBy',['../class_ace_1_1_core_1_1_transform_component.html#aad9a5297ef24b1673d1acb228dd139af',1,'Ace::Core::TransformComponent']]],

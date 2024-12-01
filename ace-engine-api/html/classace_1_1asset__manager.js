@@ -1,0 +1,27 @@
+var classace_1_1asset__manager =
+[
+    [ "asset_manager", "classace_1_1asset__manager.html#a4b81ff5b573bc1e503aa577d8b5b049a", null ],
+    [ "~asset_manager", "classace_1_1asset__manager.html#a23af365ba6ea9d22e68d50fcab6d47aa", null ],
+    [ "add_asset_info_for_key", "classace_1_1asset__manager.html#ae74693ae8e535b7b387855384eaad052", null ],
+    [ "add_asset_info_for_path", "classace_1_1asset__manager.html#a2dd0ab574bc70f7fb66065498cb40dd9", null ],
+    [ "add_storage", "classace_1_1asset__manager.html#a6ed246f180211fb5f5b35d49b6242b86", null ],
+    [ "deinit", "classace_1_1asset__manager.html#a0bbef18ab5989076c865bd65003509e2", null ],
+    [ "find_asset", "classace_1_1asset__manager.html#a07fafb030467d055faeaaf50cfc4158b", null ],
+    [ "for_each_asset", "classace_1_1asset__manager.html#a330c45875489f40402eda4590845b6e0", null ],
+    [ "get_asset", "classace_1_1asset__manager.html#ad981cf41906e3fb36f341d5804e35f1d", null ],
+    [ "get_asset", "classace_1_1asset__manager.html#a57418c9ba6990ad08f96f6385a048f17", null ],
+    [ "get_asset_from_instance", "classace_1_1asset__manager.html#ae4d25b5cb20e6c29092fd01f9560c12d", null ],
+    [ "get_assets", "classace_1_1asset__manager.html#a36a8449af3a58df7aad076650b53c417", null ],
+    [ "get_assets_with_predicate", "classace_1_1asset__manager.html#adc54be3618721cbbfffc5b9a695c796c", null ],
+    [ "get_metadata", "classace_1_1asset__manager.html#a734464e86220ef584faaaddbc530252c", null ],
+    [ "init", "classace_1_1asset__manager.html#a1895e8cbd5e34927e2313963c8fe23e1", null ],
+    [ "load_database", "classace_1_1asset__manager.html#ae0bb4915d242deb84b5f87c71540ea71", null ],
+    [ "remove_asset_info_for_key", "classace_1_1asset__manager.html#a362219040b0f5a7a4625bbfe2fab10b6", null ],
+    [ "remove_asset_info_for_path", "classace_1_1asset__manager.html#aac1a69c6564174447c4f587e535f45e2", null ],
+    [ "rename_asset", "classace_1_1asset__manager.html#a6af1cc3b61460207e824042fdef1b2da", null ],
+    [ "save_database", "classace_1_1asset__manager.html#a17dd9f17dcc82acae0ea6b06c9d1088c", null ],
+    [ "set_parent", "classace_1_1asset__manager.html#ab098504e0e2c977c1079fcba9728a268", null ],
+    [ "unload_all", "classace_1_1asset__manager.html#aa3adb5a4f36b764448e5bc09051e9ca3", null ],
+    [ "unload_asset", "classace_1_1asset__manager.html#a6885a87e036468432c32642a84d98a4b", null ],
+    [ "unload_group", "classace_1_1asset__manager.html#a496ea3e8e4cb1f448fc682ef916f9d1f", null ]
+];

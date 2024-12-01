@@ -1,20 +1,21 @@
 var searchData=
 [
-  ['pause_0',['Pause',['../class_ace_1_1_core_1_1_animation_component.html#a8552333f9880736682a4b66c833716b6',1,'Ace::Core::AnimationComponent']]],
+  ['pause_0',['Pause',['../class_ace_1_1_core_1_1_animation_component.html#a8552333f9880736682a4b66c833716b6',1,'Ace.Core.AnimationComponent.Pause()'],['../class_ace_1_1_core_1_1_audio_source_component.html#ae1f82782085c40a8eb98909661968870',1,'Ace.Core.AudioSourceComponent.Pause()']]],
   ['perpendicular_1',['Perpendicular',['../struct_vector2.html#af424c3ad34c54bcb218d2fa409a8ad76',1,'Vector2']]],
   ['physicscomponent_2',['PhysicsComponent',['../class_ace_1_1_core_1_1_physics_component.html',1,'Ace::Core']]],
   ['physicscomponent_2ecs_3',['PhysicsComponent.cs',['../_physics_component_8cs.html',1,'']]],
   ['physicsmaterial_4',['PhysicsMaterial',['../class_ace_1_1_core_1_1_physics_material.html',1,'Ace::Core']]],
   ['pi_5',['PI',['../struct_mathf.html#a6568a520f1282598da02d4f184d984ee',1,'Mathf']]],
   ['pingpong_6',['PingPong',['../struct_mathf.html#a87ee8afeb4be18a0b704034a882d126b',1,'Mathf']]],
-  ['play_7',['Play',['../class_ace_1_1_core_1_1_animation_component.html#a54f2c880dfe20660649ac46ab31ca634',1,'Ace::Core::AnimationComponent']]],
-  ['point_8',['point',['../struct_ace_1_1_core_1_1_contact_point.html#a4000b3173fce8c65dd0bacce3ccdcd3e',1,'Ace::Core::ContactPoint']]],
-  ['position_9',['position',['../class_ace_1_1_core_1_1_transform_component.html#ad3bb4c28434c3bb174c85cf73a46cd9c',1,'Ace::Core::TransformComponent']]],
-  ['positionsmoothtime_10',['positionSmoothTime',['../class_sample_orbit_component.html#a9e356bbb0a53d0a4edddaa291d6fcf55',1,'SampleOrbitComponent']]],
-  ['positiveinfinity_11',['positiveInfinity',['../struct_vector2.html#aab6264ef219840ce2fb2d5ba40af9967',1,'Vector2.positiveInfinity'],['../struct_vector3.html#a7d0c96e8efba8c18c8c5b3551383efd9',1,'Vector3.positiveInfinity'],['../struct_vector4.html#ae52de9a6394025c2aa1da2e99c71656e',1,'Vector4.positiveInfinity']]],
-  ['pow_12',['Pow',['../struct_mathf.html#a4500c8ddfa5dd320f46f3083ebbab7d5',1,'Mathf']]],
-  ['prefab_13',['Prefab',['../class_ace_1_1_core_1_1_prefab.html',1,'Ace::Core']]],
-  ['prefab_2ecs_14',['Prefab.cs',['../_prefab_8cs.html',1,'']]],
-  ['project_15',['Project',['../struct_vector3.html#a9f264965617e2b20956c5a68e3936746',1,'Vector3.Project()'],['../struct_vector4.html#a792adf54b1d5df3dee3f28a2c3454fa8',1,'Vector4.Project()']]],
-  ['projectonplane_16',['ProjectOnPlane',['../struct_vector3.html#acab11381f91cee6b44a4fedd295a67a4',1,'Vector3']]]
+  ['pitch_7',['pitch',['../class_ace_1_1_core_1_1_audio_source_component.html#ab7438b4b38e726991d50f7e59a034db1',1,'Ace::Core::AudioSourceComponent']]],
+  ['play_8',['Play',['../class_ace_1_1_core_1_1_animation_component.html#a54f2c880dfe20660649ac46ab31ca634',1,'Ace.Core.AnimationComponent.Play()'],['../class_ace_1_1_core_1_1_audio_source_component.html#a0137c44205e52b6e1e4649866e9dea47',1,'Ace.Core.AudioSourceComponent.Play()']]],
+  ['playclipatpoint_9',['PlayClipAtPoint',['../class_ace_1_1_core_1_1_audio_source_component.html#a6952a973555e8b03c2b7a611cc84fe95',1,'Ace::Core::AudioSourceComponent']]],
+  ['position_10',['position',['../class_ace_1_1_core_1_1_transform_component.html#ad3bb4c28434c3bb174c85cf73a46cd9c',1,'Ace::Core::TransformComponent']]],
+  ['positionsmoothtime_11',['positionSmoothTime',['../class_sample_orbit_component.html#a9e356bbb0a53d0a4edddaa291d6fcf55',1,'SampleOrbitComponent']]],
+  ['positiveinfinity_12',['positiveInfinity',['../struct_vector2.html#aab6264ef219840ce2fb2d5ba40af9967',1,'Vector2.positiveInfinity'],['../struct_vector3.html#a7d0c96e8efba8c18c8c5b3551383efd9',1,'Vector3.positiveInfinity'],['../struct_vector4.html#ae52de9a6394025c2aa1da2e99c71656e',1,'Vector4.positiveInfinity']]],
+  ['pow_13',['Pow',['../struct_mathf.html#a4500c8ddfa5dd320f46f3083ebbab7d5',1,'Mathf']]],
+  ['prefab_14',['Prefab',['../class_ace_1_1_core_1_1_prefab.html',1,'Ace::Core']]],
+  ['prefab_2ecs_15',['Prefab.cs',['../_prefab_8cs.html',1,'']]],
+  ['project_16',['Project',['../struct_vector3.html#a9f264965617e2b20956c5a68e3936746',1,'Vector3.Project()'],['../struct_vector4.html#a792adf54b1d5df3dee3f28a2c3454fa8',1,'Vector4.Project()']]],
+  ['projectonplane_17',['ProjectOnPlane',['../struct_vector3.html#acab11381f91cee6b44a4fedd295a67a4',1,'Vector3']]]
 ];

@@ -102,6 +102,9 @@ $(function(){initNavTree('class_ace_1_1_core_1_1_script_component.html',''); ini
   <div class="headertitle"><div class="title">Ace.Core.ScriptComponent Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a script component that provides lifecycle hooks and event handling for an entity.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Ace.Core.ScriptComponent:</div>
 <div class="dyncontent">
@@ -118,20 +121,28 @@ Inheritance diagram for Ace.Core.ScriptComponent:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ade288d32910eb26f620ff2f632a8a9aa" id="r_ade288d32910eb26f620ff2f632a8a9aa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade288d32910eb26f620ff2f632a8a9aa">OnCreate</a> ()</td></tr>
+<tr class="memdesc:ade288d32910eb26f620ff2f632a8a9aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the script is created. Override this method to initialize resources or data.  <br /></td></tr>
 <tr class="separator:ade288d32910eb26f620ff2f632a8a9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a991f485b397b5c2f5e77635e9dd9e" id="r_ac5a991f485b397b5c2f5e77635e9dd9e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5a991f485b397b5c2f5e77635e9dd9e">OnStart</a> ()</td></tr>
+<tr class="memdesc:ac5a991f485b397b5c2f5e77635e9dd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the script starts execution. Override this method to set up logic at the start.  <br /></td></tr>
 <tr class="separator:ac5a991f485b397b5c2f5e77635e9dd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a4bba3f4b8e144ebe7a03f7ec69d053" id="r_a2a4bba3f4b8e144ebe7a03f7ec69d053"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a4bba3f4b8e144ebe7a03f7ec69d053">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a2a4bba3f4b8e144ebe7a03f7ec69d053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the script is destroyed. Override this method to clean up resources or data.  <br /></td></tr>
 <tr class="separator:a2a4bba3f4b8e144ebe7a03f7ec69d053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0602936425b091f0e902b2c4b5394dc8" id="r_a0602936425b091f0e902b2c4b5394dc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0602936425b091f0e902b2c4b5394dc8">OnSensorEnter</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> e)</td></tr>
+<tr class="memdesc:a0602936425b091f0e902b2c4b5394dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another entity enters a sensor attached to this entity.  <br /></td></tr>
 <tr class="separator:a0602936425b091f0e902b2c4b5394dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c2ef82ff35342a74afc18756ac55a6" id="r_a58c2ef82ff35342a74afc18756ac55a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58c2ef82ff35342a74afc18756ac55a6">OnSensorExit</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> e)</td></tr>
+<tr class="memdesc:a58c2ef82ff35342a74afc18756ac55a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when another entity exits a sensor attached to this entity.  <br /></td></tr>
 <tr class="separator:a58c2ef82ff35342a74afc18756ac55a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f6dc93abf16a0bfa8d849e0a7dd8e20" id="r_a4f6dc93abf16a0bfa8d849e0a7dd8e20"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6dc93abf16a0bfa8d849e0a7dd8e20">OnCollisionEnter</a> (<a class="el" href="class_ace_1_1_core_1_1_collision.html">Collision</a> collision)</td></tr>
+<tr class="memdesc:a4f6dc93abf16a0bfa8d849e0a7dd8e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this entity begins a collision with another entity.  <br /></td></tr>
 <tr class="separator:a4f6dc93abf16a0bfa8d849e0a7dd8e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29ffb7576f7a52c46485b6d861c1eb3" id="r_aa29ffb7576f7a52c46485b6d861c1eb3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa29ffb7576f7a52c46485b6d861c1eb3">OnCollisionExit</a> (<a class="el" href="class_ace_1_1_core_1_1_collision.html">Collision</a> collision)</td></tr>
+<tr class="memdesc:aa29ffb7576f7a52c46485b6d861c1eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this entity ends a collision with another entity.  <br /></td></tr>
 <tr class="separator:aa29ffb7576f7a52c46485b6d861c1eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74c3afc336e08bc921c8e119cf4b10c0" id="r_a74c3afc336e08bc921c8e119cf4b10c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c3afc336e08bc921c8e119cf4b10c0">OnUpdate</a> ()</td></tr>
+<tr class="memdesc:a74c3afc336e08bc921c8e119cf4b10c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on every frame update. Override this method to implement frame-based logic.  <br /></td></tr>
 <tr class="separator:a74c3afc336e08bc921c8e119cf4b10c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ace_1_1_core_1_1_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_ace_1_1_core_1_1_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ace_1_1_core_1_1_component.html">Ace.Core.Component</a></td></tr>
 <tr class="memitem:ac52ba6b192cf1581cf8eb597b18696a6 inherit pub_methods_class_ace_1_1_core_1_1_component" id="r_ac52ba6b192cf1581cf8eb597b18696a6"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ace_1_1_core_1_1_component.html#ac52ba6b192cf1581cf8eb597b18696a6">IsValid</a> ()</td></tr>
@@ -160,8 +171,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a3e2976b9aab88cf649adf4aab7ebd7c7 inherit properties_class_ace_1_1_core_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00011">11</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<div class="textblock"><p>Represents a script component that provides lifecycle hooks and event handling for an entity. </p>
+
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00012">12</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4f6dc93abf16a0bfa8d849e0a7dd8e20" name="a4f6dc93abf16a0bfa8d849e0a7dd8e20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f6dc93abf16a0bfa8d849e0a7dd8e20">&#9670;&#160;</a></span>OnCollisionEnter()</h2>
@@ -186,7 +198,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00036">36</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p>Called when this entity begins a collision with another entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collision</td><td>Details of the collision, including the other entity and contact points.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00055">55</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -213,7 +233,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00040">40</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p>Called when this entity ends a collision with another entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collision</td><td>Details of the collision, including the other entity and contact points.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00063">63</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -240,9 +268,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when the script is created. Override this method to initialize resources or data. </p>
+
 <p>Reimplemented in <a class="el" href="class_new_component_template.html#a96e3a5e5c9656b83b299031611faac8d">NewComponentTemplate</a>, and <a class="el" href="class_sample_orbit_component.html#afedd8d541684706a1c5e3c754719bd03">SampleOrbitComponent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00013">13</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00017">17</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -269,9 +299,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when the script is destroyed. Override this method to clean up resources or data. </p>
+
 <p>Reimplemented in <a class="el" href="class_new_component_template.html#a363937d673de9c42f8cc03ef752f7b47">NewComponentTemplate</a>, and <a class="el" href="class_sample_orbit_component.html#a494b0e474d1b11e85437ad2832d9a735">SampleOrbitComponent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00022">22</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00031">31</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -298,7 +330,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00027">27</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p>Called when another entity enters a sensor attached to this entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The entity that entered the sensor.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00039">39</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -325,7 +365,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00031">31</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p>Called when another entity exits a sensor attached to this entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The entity that exited the sensor.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00047">47</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -352,9 +400,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when the script starts execution. Override this method to set up logic at the start. </p>
+
 <p>Reimplemented in <a class="el" href="class_new_component_template.html#aa970445f698511130a98a3b7d386b721">NewComponentTemplate</a>, and <a class="el" href="class_sample_orbit_component.html#a2b3713523f854963190bccfce474c752">SampleOrbitComponent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00017">17</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00024">24</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>
@@ -381,9 +431,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called on every frame update. Override this method to implement frame-based logic. </p>
+
 <p>Reimplemented in <a class="el" href="class_new_component_template.html#ad23f929eb37614beddad584a6edbaee8">NewComponentTemplate</a>, and <a class="el" href="class_sample_orbit_component.html#ada5b3b8f7379993dca816bd2a7189f12">SampleOrbitComponent</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00045">45</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_script_component_8cs_source.html#l00070">70</a> of file <a class="el" href="_script_component_8cs_source.html">ScriptComponent.cs</a>.</p>
 
 </div>
 </div>

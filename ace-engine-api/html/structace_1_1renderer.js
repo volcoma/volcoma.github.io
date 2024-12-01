@@ -1,0 +1,26 @@
+var structace_1_1renderer =
+[
+    [ "render_window_t", "structace_1_1renderer.html#a2aa59b808a18349993a6f835c495f751", null ],
+    [ "renderer", "structace_1_1renderer.html#a471303eaa0f7ae110ba1154bacf37913", null ],
+    [ "~renderer", "structace_1_1renderer.html#a406f29168ec697a307111a832d785cc7", null ],
+    [ "create_window_for_display", "structace_1_1renderer.html#ac63047dd53de7b35cf3c021662941a13", null ],
+    [ "deinit", "structace_1_1renderer.html#aabea34e3f19689cc5a04411e3ee768e5", null ],
+    [ "frame_begin", "structace_1_1renderer.html#a49129576774fc14d1375d5b78b242e6a", null ],
+    [ "frame_end", "structace_1_1renderer.html#a9db5cdde2b944eb98c7a28e857fd31d3", null ],
+    [ "get_main_window", "structace_1_1renderer.html#a916761a48d966d42958eacab38297d19", null ],
+    [ "get_renderer_type", "structace_1_1renderer.html#a283e4975e03aaa833edeae90b15adbbf", null ],
+    [ "get_reset_flags", "structace_1_1renderer.html#a31ef46ed5421ef7774b6da191968a105", null ],
+    [ "get_reset_flags", "structace_1_1renderer.html#a0fa1925073d597f8ca734011c79294cb", null ],
+    [ "get_vsync", "structace_1_1renderer.html#a2b187c17ef398414d6b1acb201ad2144", null ],
+    [ "init", "structace_1_1renderer.html#a451688eb2419b2beb3065480b441986c", null ],
+    [ "init_backend", "structace_1_1renderer.html#a322ccfa06d63e4e83bb9bd2f2a4b91a7", null ],
+    [ "on_os_event", "structace_1_1renderer.html#af7713e0935808421725c7cd2ee4d1fa1", null ],
+    [ "request_screenshot", "structace_1_1renderer.html#ab1835417bfe332e2a80b9251d3102880", null ],
+    [ "set_main_window", "structace_1_1renderer.html#ac95e606aff1cd353650820e161f25f96", null ],
+    [ "set_vsync", "structace_1_1renderer.html#aa312daa542fe11b0951c178048da7764", null ],
+    [ "init_window_", "structace_1_1renderer.html#ad6a118274307ce50a5fc2889d053ae68", null ],
+    [ "render_window_", "structace_1_1renderer.html#af35be21ca13ebab214dc53c39fae97c4", null ],
+    [ "request_screenshot_", "structace_1_1renderer.html#af5ce8c031604185051dfe773861e8be7", null ],
+    [ "reset_flags_", "structace_1_1renderer.html#a7d12a9f9ca945ba8369ea915ddd6011a", null ],
+    [ "sentinel_", "structace_1_1renderer.html#a73f33481a326716db35aed1be1b02122", null ]
+];
