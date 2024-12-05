@@ -103,6 +103,9 @@ $(function(){initNavTree('class_ace_1_1_core_1_1_component.html',''); initResiza
   <div class="headertitle"><div class="title">Ace.Core.Component Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a base class for all components in the entity-component system.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Ace.Core.Component:</div>
 <div class="dyncontent">
@@ -120,13 +123,14 @@ Inheritance diagram for Ace.Core.Component:</div>
 <area href="class_ace_1_1_core_1_1_physics_component.html" title="Provides physics functionality for an entity." alt="Ace.Core.PhysicsComponent" shape="rect" coords="234,560,458,584"/>
 <area href="class_ace_1_1_core_1_1_reflection_probe_component.html" alt="Ace.Core.ReflectionProbeComponent" shape="rect" coords="234,616,458,640"/>
 <area href="class_ace_1_1_core_1_1_script_component.html" title="Represents a script component that provides lifecycle hooks and event handling for an entity." alt="Ace.Core.ScriptComponent" shape="rect" coords="234,672,458,696"/>
-<area href="class_ace_1_1_core_1_1_transform_component.html" alt="Ace.Core.TransformComponent" shape="rect" coords="234,728,458,752"/>
+<area href="class_ace_1_1_core_1_1_transform_component.html" title="Represents a component that defines the position, rotation, scale, and other transformations of an en..." alt="Ace.Core.TransformComponent" shape="rect" coords="234,728,458,752"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac52ba6b192cf1581cf8eb597b18696a6" id="r_ac52ba6b192cf1581cf8eb597b18696a6"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac52ba6b192cf1581cf8eb597b18696a6">IsValid</a> ()</td></tr>
+<tr class="memdesc:ac52ba6b192cf1581cf8eb597b18696a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this component is valid.  <br /></td></tr>
 <tr class="separator:ac52ba6b192cf1581cf8eb597b18696a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ace_1_1_core_1_1_native_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_ace_1_1_core_1_1_native_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ace_1_1_core_1_1_native_object.html">Ace.Core.NativeObject</a></td></tr>
 <tr class="memitem:ab69d0377846e5d34e2285384a3450174 inherit pub_methods_class_ace_1_1_core_1_1_native_object" id="r_ab69d0377846e5d34e2285384a3450174"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ace_1_1_core_1_1_native_object.html#ab69d0377846e5d34e2285384a3450174">IsValid</a> ()</td></tr>
@@ -141,8 +145,10 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:acbed60618871dddb975f9e14a3e3d74c" id="r_acbed60618871dddb975f9e14a3e3d74c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbed60618871dddb975f9e14a3e3d74c">owner</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acbed60618871dddb975f9e14a3e3d74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the entity that owns this component.  <br /></td></tr>
 <tr class="separator:acbed60618871dddb975f9e14a3e3d74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e2976b9aab88cf649adf4aab7ebd7c7" id="r_a3e2976b9aab88cf649adf4aab7ebd7c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ace_1_1_core_1_1_transform_component.html">TransformComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2976b9aab88cf649adf4aab7ebd7c7">transform</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3e2976b9aab88cf649adf4aab7ebd7c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_ace_1_1_core_1_1_transform_component.html" title="Represents a component that defines the position, rotation, scale, and other transformations of an en...">TransformComponent</a> associated with this component's owner.  <br /></td></tr>
 <tr class="separator:a3e2976b9aab88cf649adf4aab7ebd7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -154,8 +160,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a9112d7cbde1cd7426cf3b8cef53fdb5b inherit pub_static_methods_class_ace_1_1_core_1_1_native_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00008">8</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
+<div class="textblock"><p>Represents a base class for all components in the entity-component system. </p>
+
+<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00009">9</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac52ba6b192cf1581cf8eb597b18696a6" name="ac52ba6b192cf1581cf8eb597b18696a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac52ba6b192cf1581cf8eb597b18696a6">&#9670;&#160;</a></span>IsValid()</h2>
@@ -172,7 +179,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00026">26</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
+<p>Determines whether this component is valid. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the owner entity is valid and this component exists on the owner; otherwise, <code>false</code>. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00046">46</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
 
 </div>
 </div>
@@ -197,7 +207,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00010">10</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
+<p>Gets the entity that owns this component. </p>
+
+<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00014">14</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
 
 </div>
 </div>
@@ -221,7 +233,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00014">14</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
+<p>Gets the <a class="el" href="class_ace_1_1_core_1_1_transform_component.html" title="Represents a component that defines the position, rotation, scale, and other transformations of an en...">TransformComponent</a> associated with this component's owner. </p>
+<p>The transform is lazily loaded and cached for performance. The cache is updated if the owner entity is reassigned. </p>
+
+<p class="definition">Definition at line <a class="el" href="_components_8cs_source.html#l00026">26</a> of file <a class="el" href="_components_8cs_source.html">Components.cs</a>.</p>
 
 </div>
 </div>

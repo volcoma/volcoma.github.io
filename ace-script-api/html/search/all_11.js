@@ -8,7 +8,7 @@ var searchData=
   ['scalebylocal_5',['ScaleByLocal',['../class_ace_1_1_core_1_1_transform_component.html#a01265020d8e7c0eb7b9957df7b11a051',1,'Ace::Core::TransformComponent']]],
   ['scene_6',['Scene',['../class_ace_1_1_core_1_1_scene.html',1,'Ace::Core']]],
   ['scene_2ecs_7',['Scene.cs',['../_scene_8cs.html',1,'']]],
-  ['scriptcomponent_8',['ScriptComponent',['../class_ace_1_1_core_1_1_script_component.html',1,'Ace::Core']]],
+  ['scriptcomponent_8',['ScriptComponent',['../class_ace_1_1_core_1_1_script_component.html',1,'Ace.Core.ScriptComponent'],['../class_ace_1_1_core_1_1_script_component.html#ac2989cf0945f28ec1637fd11e481d6b5',1,'Ace.Core.ScriptComponent.ScriptComponent()']]],
   ['scriptcomponent_2ecs_9',['ScriptComponent.cs',['../_script_component_8cs.html',1,'']]],
   ['scriptsystem_10',['ScriptSystem',['../class_ace_1_1_core_1_1_script_system.html',1,'Ace.Core.ScriptSystem'],['../class_ace_1_1_core_1_1_script_system.html#a25ed363023332fab0b22da68550aaffc',1,'Ace.Core.ScriptSystem.ScriptSystem()']]],
   ['set_11',['Set',['../struct_quaternion.html#a995d921d0a1e6f01e7d6a788345bf850',1,'Quaternion.Set()'],['../struct_vector2.html#a09ee3d4f967f1d6e2ed08571cd282d2f',1,'Vector2.Set()'],['../struct_vector3.html#a570249d758bea4c09909a77cf18e98dc',1,'Vector3.Set()'],['../struct_vector4.html#a6bcdfce443d05cbb26f28988a337eff0',1,'Vector4.Set()']]],

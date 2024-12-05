@@ -102,6 +102,9 @@ $(function(){initNavTree('class_ace_1_1_core_1_1_scene.html',''); initResizable(
   <div class="headertitle"><div class="title">Ace.Core.Scene Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a scene in the application, providing methods to manage entities and load or destroy scenes.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Ace.Core.Scene:</div>
 <div class="dyncontent">
@@ -115,25 +118,32 @@ Inheritance diagram for Ace.Core.Scene:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adaff0e77a7c1ccc26dbbff4fffce3281" id="r_adaff0e77a7c1ccc26dbbff4fffce3281"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaff0e77a7c1ccc26dbbff4fffce3281">LoadScene</a> (string key)</td></tr>
+<tr class="memdesc:adaff0e77a7c1ccc26dbbff4fffce3281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a scene by its unique key.  <br /></td></tr>
 <tr class="separator:adaff0e77a7c1ccc26dbbff4fffce3281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a6cbbcfb07abd33a764900d431a4449" id="r_a4a6cbbcfb07abd33a764900d431a4449"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a6cbbcfb07abd33a764900d431a4449">Instantiate</a> (<a class="el" href="class_ace_1_1_core_1_1_prefab.html">Prefab</a> prefab)</td></tr>
+<tr class="memdesc:a4a6cbbcfb07abd33a764900d431a4449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates an entity from a specified prefab.  <br /></td></tr>
 <tr class="separator:a4a6cbbcfb07abd33a764900d431a4449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a490d934581d62d6f89504e2a1f7837fc" id="r_a490d934581d62d6f89504e2a1f7837fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a490d934581d62d6f89504e2a1f7837fc">Instantiate</a> (string key)</td></tr>
+<tr class="memdesc:a490d934581d62d6f89504e2a1f7837fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates an entity from a prefab identified by a key.  <br /></td></tr>
 <tr class="separator:a490d934581d62d6f89504e2a1f7837fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a473ea9d162ab2d2f8d5db575d5cb6f76" id="r_a473ea9d162ab2d2f8d5db575d5cb6f76"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473ea9d162ab2d2f8d5db575d5cb6f76">CloneEntity</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> e)</td></tr>
+<tr class="memdesc:a473ea9d162ab2d2f8d5db575d5cb6f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clones an existing entity.  <br /></td></tr>
 <tr class="separator:a473ea9d162ab2d2f8d5db575d5cb6f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48207265c1e2edcc5115bf704ff07f8e" id="r_a48207265c1e2edcc5115bf704ff07f8e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48207265c1e2edcc5115bf704ff07f8e">CreateEntity</a> (string tag=&quot;Unnamed&quot;)</td></tr>
+<tr class="memdesc:a48207265c1e2edcc5115bf704ff07f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new entity with the specified tag.  <br /></td></tr>
 <tr class="separator:a48207265c1e2edcc5115bf704ff07f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e9deabd528ce1b83fc7c68d7ecdc70b" id="r_a2e9deabd528ce1b83fc7c68d7ecdc70b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9deabd528ce1b83fc7c68d7ecdc70b">DestroyEntity</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> entity)</td></tr>
-<tr class="separator:a2e9deabd528ce1b83fc7c68d7ecdc70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bb307b5bf627c7d04fe6436ddb8ae2a" id="r_a2bb307b5bf627c7d04fe6436ddb8ae2a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bb307b5bf627c7d04fe6436ddb8ae2a">DestroyEntity</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> entity, float seconds)</td></tr>
-<tr class="separator:a2bb307b5bf627c7d04fe6436ddb8ae2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd35482222cc7bc5ce1c1b6158219be" id="r_a0fd35482222cc7bc5ce1c1b6158219be"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd35482222cc7bc5ce1c1b6158219be">DestroyEntity</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> entity, float seconds=0.0f)</td></tr>
+<tr class="memdesc:a0fd35482222cc7bc5ce1c1b6158219be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the specified entity after a delay.  <br /></td></tr>
+<tr class="separator:a0fd35482222cc7bc5ce1c1b6158219be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeecaa67770fedaf0f06ed2bd27ee8ab0" id="r_aeecaa67770fedaf0f06ed2bd27ee8ab0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeecaa67770fedaf0f06ed2bd27ee8ab0">DestroyEntityImmediate</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> entity)</td></tr>
+<tr class="memdesc:aeecaa67770fedaf0f06ed2bd27ee8ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately destroys the specified entity.  <br /></td></tr>
 <tr class="separator:aeecaa67770fedaf0f06ed2bd27ee8ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da0fa725fa7d8b04a773fb12f51c521" id="r_a9da0fa725fa7d8b04a773fb12f51c521"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9da0fa725fa7d8b04a773fb12f51c521">IsEntityValid</a> (<a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> entity)</td></tr>
+<tr class="memdesc:a9da0fa725fa7d8b04a773fb12f51c521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the specified entity is valid within the current scene.  <br /></td></tr>
 <tr class="separator:a9da0fa725fa7d8b04a773fb12f51c521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19cf36320e9385f532560e5b90b17f02" id="r_a19cf36320e9385f532560e5b90b17f02"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19cf36320e9385f532560e5b90b17f02">FindEntityByTag</a> (string tag=&quot;Unnamed&quot;)</td></tr>
-<tr class="separator:a19cf36320e9385f532560e5b90b17f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee818bbb2911d88fe08fdcda3d8f5bb" id="r_aaee818bbb2911d88fe08fdcda3d8f5bb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaee818bbb2911d88fe08fdcda3d8f5bb">FindEntityByTag</a> (string tag)</td></tr>
+<tr class="memdesc:aaee818bbb2911d88fe08fdcda3d8f5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first entity with the specified tag.  <br /></td></tr>
+<tr class="separator:aaee818bbb2911d88fe08fdcda3d8f5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_ace_1_1_core_1_1_asset"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_ace_1_1_core_1_1_asset')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_ace_1_1_core_1_1_asset.html">Ace.Core.Asset&lt; Scene &gt;</a></td></tr>
 <tr class="memitem:a39d54411c7d4461a5b7ef66deaa58afe inherit pub_static_methods_class_ace_1_1_core_1_1_asset" id="r_a39d54411c7d4461a5b7ef66deaa58afe"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ace_1_1_core_1_1_asset.html#a39d54411c7d4461a5b7ef66deaa58afe">operator==</a> (<a class="el" href="class_ace_1_1_core_1_1_asset.html">Asset</a>&lt; T &gt; lhs, <a class="el" href="class_ace_1_1_core_1_1_asset.html">Asset</a>&lt; T &gt; rhs)</td></tr>
 <tr class="separator:a39d54411c7d4461a5b7ef66deaa58afe inherit pub_static_methods_class_ace_1_1_core_1_1_asset"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,8 +164,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a722faf864618af18fb822b98b01c8cad inherit properties_class_ace_1_1_core_1_1_asset"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00008">8</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<div class="textblock"><p>Represents a scene in the application, providing methods to manage entities and load or destroy scenes. </p>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00009">9</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a473ea9d162ab2d2f8d5db575d5cb6f76" name="a473ea9d162ab2d2f8d5db575d5cb6f76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a473ea9d162ab2d2f8d5db575d5cb6f76">&#9670;&#160;</a></span>CloneEntity()</h2>
@@ -180,7 +191,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00025">25</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Clones an existing entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The entity to clone.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new entity that is a clone of the specified entity.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00045">45</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
@@ -207,39 +227,21 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00030">30</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Creates a new entity with the specified tag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>The tag to assign to the new entity. Defaults to "Unnamed".</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The newly created entity.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00055">55</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
-<a id="a2e9deabd528ce1b83fc7c68d7ecdc70b" name="a2e9deabd528ce1b83fc7c68d7ecdc70b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e9deabd528ce1b83fc7c68d7ecdc70b">&#9670;&#160;</a></span>DestroyEntity() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void Ace.Core.Scene.DestroyEntity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00035">35</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
-
-</div>
-</div>
-<a id="a2bb307b5bf627c7d04fe6436ddb8ae2a" name="a2bb307b5bf627c7d04fe6436ddb8ae2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bb307b5bf627c7d04fe6436ddb8ae2a">&#9670;&#160;</a></span>DestroyEntity() <span class="overload">[2/2]</span></h2>
+<a id="a0fd35482222cc7bc5ce1c1b6158219be" name="a0fd35482222cc7bc5ce1c1b6158219be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd35482222cc7bc5ce1c1b6158219be">&#9670;&#160;</a></span>DestroyEntity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +257,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>seconds</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>seconds</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0::0f</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -265,7 +267,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00044">44</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Destroys the specified entity after a delay. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity to destroy.</td></tr>
+    <tr><td class="paramname">seconds</td><td>The delay in seconds before destruction. Defaults to 0.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00065">65</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
@@ -292,12 +303,20 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00052">52</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Immediately destroys the specified entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity to destroy.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00077">77</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
-<a id="a19cf36320e9385f532560e5b90b17f02" name="a19cf36320e9385f532560e5b90b17f02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19cf36320e9385f532560e5b90b17f02">&#9670;&#160;</a></span>FindEntityByTag()</h2>
+<a id="aaee818bbb2911d88fe08fdcda3d8f5bb" name="aaee818bbb2911d88fe08fdcda3d8f5bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee818bbb2911d88fe08fdcda3d8f5bb">&#9670;&#160;</a></span>FindEntityByTag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,7 +327,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="struct_ace_1_1_core_1_1_entity.html">Entity</a> Ace.Core.Scene.FindEntityByTag </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;Unnamed&quot;</span></td><td>)</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -319,7 +338,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00065">65</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Finds the first entity with the specified tag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>The tag to search for.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The entity with the specified tag, or <code>invalid</code> if no such entity exists.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00100">100</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
@@ -346,7 +374,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00015">15</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Instantiates an entity from a specified prefab. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefab</td><td>The prefab to instantiate.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The instantiated entity.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00025">25</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
@@ -373,7 +410,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00020">20</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Instantiates an entity from a prefab identified by a key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key identifying the prefab to instantiate.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The instantiated entity.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00035">35</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
@@ -400,7 +446,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00060">60</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Determines whether the specified entity is valid within the current scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>The entity to validate.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the entity is valid; otherwise, <code>false</code>.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00090">90</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
@@ -427,7 +482,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00010">10</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+<p>Loads a scene by its unique key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key identifying the scene to load.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00015">15</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
 
 </div>
 </div>
